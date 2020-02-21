@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive just changes at certain breakpoints using media query's, but a fully responsive site changes as the screen changes usinging units such as % and rem, while also implementing breakpoints to adjust baised off of the device.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+mobile first is something we haven't quite done yet. It is where the site is designed with the mobile user in mind first, then using the min-width media queries to make the site fit for desktops.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+in this instance then 1rem is the same as 62.5%. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+preprocessing is pluging in code to a different program that makes it easier and more clear as you code, but then the program turns that code into browser readable CSS for you.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love not scrolling, and perametic misins, the only thing that has given me trouble is making sure that my syntax is correct for escaping media queries.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -114,11 +124,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Mobile Design
 
-* [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
+* [Y] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [Y] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [Y] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

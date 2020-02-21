@@ -312,3 +312,25 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.intro img {
+  border-radius: 20px;
+  width: 80%;
+  height: 29vh;
+}
+.intro h2 {
+  padding: 15px;
+}
+.intro p {
+  width: 80%;
+  padding: 0 15px;
+  font-size: 20px;
+  margin-bottom: 2%;
+}
