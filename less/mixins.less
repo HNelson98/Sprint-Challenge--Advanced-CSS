@@ -1,1 +1,28 @@
 // Mixins Here
+
+.custom-btn(@width, @height){
+    display: block;
+    align-self: center;
+    background-color: @btn-bg-color;
+    color: @porcelain;
+    width: @width;
+    height: @height;
+
+    &:hover{
+        background-color: @porcelain;
+        color: @btn-bg-color;
+        cursor: pointer;
+    }
+}
+
+.flex-column(){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.space-flex(){
+    display: flex;
+    justify-content: space-around;
+}
